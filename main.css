@@ -1,0 +1,64 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    background-color: #343c3c;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #343c3c;
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#sobre,
+#fale-conosco {
+    background-color: #546c7c38;
+}
+
+.text-colored {
+    color: #044061;
+}
+
+#fale-conosco button {
+    background-color: #6c747c;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+header img {
+    height: 75px;
+}
+
+.post {
+    margin-bottom: 24px;
+}
